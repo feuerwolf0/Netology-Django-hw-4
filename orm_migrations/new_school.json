@@ -1,0 +1,73 @@
+[
+{
+    "model": "school.teacher",
+    "pk": 1,
+    "fields": {
+        "name": "╩рЁ ъшэ ┬ырфшьшЁ ┬ырфшьшЁютшў",
+        "subject": "╠рЄхьрЄшър"
+    }
+},
+{
+    "model": "school.teacher",
+    "pk": 2,
+    "fields": {
+        "name": "═рєьъшэ └эрЄюышщ └эфЁххтшў",
+        "subject": "╨єё  ч"
+    }
+},
+{
+    "model": "school.teacher",
+    "pk": 3,
+    "fields": {
+        "name": "╘шырЄютр ┼ыхэр └ыхъёрэфЁютэр",
+        "subject": "╘шчшър"
+    }
+},
+{
+    "model": "school.student",
+    "pk": 1,
+    "fields": {
+        "name": "┴рсрхтр ┬хЁр ╚трэютэр",
+        "group": "8└",
+        "teachers": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "school.student",
+    "pk": 2,
+    "fields": {
+        "name": "╧юуюЁхыют ─хэшё ┬шЄры№хтшў",
+        "group": "8└",
+        "teachers": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "school.student",
+    "pk": 3,
+    "fields": {
+        "name": "╬ёшяют ╚трэ ┬ ўхёыртютшў",
+        "group": "8┴",
+        "teachers": [
+            1
+        ]
+    }
+},
+{
+    "model": "school.student",
+    "pk": 4,
+    "fields": {
+        "name": "╙ўхэшъют ╙ўхэшъ ╙ўхэшъютшў",
+        "group": "7р",
+        "teachers": [
+            3
+        ]
+    }
+}
+]
